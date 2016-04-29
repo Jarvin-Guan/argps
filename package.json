@@ -1,0 +1,28 @@
+{
+  "name": "arg-parser",
+  "version": "1.0.0",
+  "description": "Parsing arguments to Json automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarvin-Guan/arg-parser.git"
+  },
+  "keywords": [
+    "arg",
+    "arguments",
+    "parsing"
+  ],
+  "author": "Jarvin-Guan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jarvin-Guan/arg-parser/issues"
+  },
+  "homepage": "https://github.com/Jarvin-Guan/arg-parser#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
