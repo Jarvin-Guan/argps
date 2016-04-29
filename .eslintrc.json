@@ -1,0 +1,10 @@
+{
+    "rules":{
+        "quotes": ["error","single"],
+        "semi": ["error","always"],
+        "space-unary-ops": ["error", {"words": true}],
+		"space-infix-ops": ["error"],
+		"space-in-parens": ["error", "always"],
+		"space-before-blocks": ["error"]
+    }
+}

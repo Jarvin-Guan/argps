@@ -4,7 +4,11 @@
   "description": "Parsing arguments to Json automatically",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --quiet index.js ./test",
+    "lint-fix": "eslint --quiet --fix index.js ./test",
+    "test": "./node_modules/.bin/_mocha ./test",
+    "test-watch": "./node_modules/.bin/_mocha -w -b ./test",
+    "commit": "commit-wizard"
   },
   "repository": {
     "type": "git",
@@ -22,7 +26,22 @@
   },
   "homepage": "https://github.com/Jarvin-Guan/arg-parser#readme",
   "devDependencies": {
+    "eslint": "^2.8.0",
     "mocha": "^2.4.5",
+    "pre-git": "^3.8.3",
     "should": "^8.3.1"
+  },
+  "config": {
+    "pre-git": {
+      "commit-msg": "simple",
+      "pre-commit": [],
+      "pre-push": [
+        "npm run lint",
+        "npm run test"
+      ],
+      "post-commit": [],
+      "post-checkout": [],
+      "post-merge": []
+    }
   }
 }
