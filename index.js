@@ -1,11 +1,11 @@
-module.exports = function (args,opts) {
+module.exports = function ( args,opts ) {
     var result = {
         '_':[]
     }
  
     var value = args.slice(2).join(' ');
     
-    var reStr=/(-[^\s-](?:-\S+)?|--\S+)\s*([^\s-]*)?/g;
+    var reStr = /(-[^\s-](?:-\S+)?|--\S+)\s*([^\s-]*)?/g;
     
     var match;
     
