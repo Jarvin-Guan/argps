@@ -33,7 +33,7 @@
   },
   "config": {
     "pre-git": {
-      "commit-msg": "simple",
+      "commit-msg": "",
       "pre-commit": [],
       "pre-push": [
         "npm run lint",

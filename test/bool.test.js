@@ -16,7 +16,7 @@ describe( 'bool test', function () {
             '-b','gg',
             'ff','dd'
           ] );
-          result._[0].should.equal( 'f1f' );
+          result._[0].should.equal( 'ff' );
       } );
       
       it( 'parse to true in --', function () {
