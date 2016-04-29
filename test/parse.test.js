@@ -10,7 +10,6 @@ describe( 'parse all test', function () {
             '--e','fg',
             '-hij','kf','k3f',
           ] );
-          console.log( result );
           result.a.should.equal( 'ab' );
           result.b.should.equal( 'true' );
           result.c.should.equal( 'd' );
