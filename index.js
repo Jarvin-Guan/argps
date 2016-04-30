@@ -13,7 +13,7 @@ module.exports = function ( args ) {
         var key = match[1].replace( /-/g,'' );
         match[2] = typeof match[2] === 'undefined' ? 'true' : match[2];
         if( key in result ) {
-            if( typeof result[key] === 'array' ) {
+            if( result[key] instanceof Array ) {
                 result[key].push( match[2] );
             }else{
                 result[key] = new Array( result[key] , match[2] );
