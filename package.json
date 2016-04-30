@@ -1,5 +1,5 @@
 {
-  "name": "arg-parser",
+  "name": "arg-parser", 
   "version": "1.0.0",
   "description": "Parsing arguments to Json automatically",
   "main": "index.js",
