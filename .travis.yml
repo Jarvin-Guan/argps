@@ -7,4 +7,8 @@ node_js:
 before_install:
   - npm install
   - npm install istanbul -g
-script: "npm run-script cover"
+script: 
+  - npm run-script cover
+  - coveralls < ./coverage/lcov.info || true 
+  
+sudo: false
