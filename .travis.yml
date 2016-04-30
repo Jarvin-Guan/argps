@@ -6,10 +6,6 @@ node_js:
   - "iojs"
 before_install:
   - npm install
-  - npm install istanbul -g
 script: 
   - npm test
-  - npm run-script cover
-  - coveralls < ./coverage/lcov.info || true 
-  
 sudo: false
