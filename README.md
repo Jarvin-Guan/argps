@@ -20,6 +20,8 @@ $ npm install argps --save
 ##Demo
 
 ```
+$ git clone https://github.com/Jarvin-Guan/argps.git
+$ cd argps
 $ node ./demo/test.js -a 1 -b 2
     { _: [ '' ], a: '1', b: '2' }
   node ./demo/test.js -a 1 -a 2 -b -c --d --e 4
