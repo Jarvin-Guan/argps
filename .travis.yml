@@ -6,4 +6,5 @@ node_js:
   - "iojs"
 before_install:
   - npm install
+  - npm install istanbul -g
 script: "npm run-script cover"
