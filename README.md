@@ -13,7 +13,7 @@ CI Node version Passed
 
 ## Installation
 ```
-$ npm install arg-praser --save
+$ npm install argps --save
 ```
 
 ##Demo
@@ -29,8 +29,8 @@ $ node ./demo/test.js -a 1 -b 2
 
 ##How to use in your project?
 ```
-const argp = require( 'argp');
-var argObject = argp(process.argv.slice(2));
+const argps = require( 'argps');
+var argObject = argps(process.argv.slice(2));
 /* just like demo #1
   argObject:{
      _: [ '' ],
