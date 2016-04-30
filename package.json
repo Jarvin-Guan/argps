@@ -1,5 +1,5 @@
 {
-  "name": "arg-parser",
+  "name": "argps",
   "version": "1.0.0",
   "description": "Parsing arguments to Object automatically",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jarvin-Guan/arg-parser.git"
+    "url": "git+https://github.com/Jarvin-Guan/argps.git"
   },
   "keywords": [
     "arg",
@@ -23,9 +23,9 @@
   "author": "Jarvin-Guan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jarvin-Guan/arg-parser/issues"
+    "url": "https://github.com/Jarvin-Guan/argps/issues"
   },
-  "homepage": "https://github.com/Jarvin-Guan/arg-parser#readme",
+  "homepage": "https://github.com/Jarvin-Guan/argps#readme",
   "devDependencies": {
     "coveralls": "^2.11.9",
     "eslint": "^2.8.0",
