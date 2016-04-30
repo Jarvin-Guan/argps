@@ -1,7 +1,7 @@
 # argps
 
 [![Join the chat at https://gitter.im/Jarvin-Guan/argps](https://badges.gitter.im/Jarvin-Guan/argps.svg)](https://gitter.im/Jarvin-Guan/argps?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build](https://travis-ci.org/Jarvin-Guan/argps.svg?branch=master)](https://travis-ci.org/Jarvin-Guan/arg-parser/)  [![Coverage Status](https://coveralls.io/repos/github/Jarvin-Guan/argps/badge.svg?branch=master)](https://coveralls.io/github/Jarvin-Guan/argps?branch=master)
+[![Build](https://travis-ci.org/Jarvin-Guan/argps.svg?branch=master)](https://travis-ci.org/Jarvin-Guan/argps/)  [![Coverage Status](https://coveralls.io/repos/github/Jarvin-Guan/argps/badge.svg?branch=master)](https://coveralls.io/github/Jarvin-Guan/argps?branch=master)
 ####Aim : Parsing parameters automatically     node.js
 ####Prower by _Regex_
 
