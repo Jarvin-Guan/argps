@@ -1,5 +1,5 @@
 {
-  "name": "arg-parser", 
+  "name": "arg-parser",
   "version": "1.0.0",
   "description": "Parsing arguments to Json automatically",
   "main": "index.js",
@@ -8,7 +8,8 @@
     "lint-fix": "eslint --quiet --fix index.js ./test",
     "test": "./node_modules/.bin/_mocha ./test",
     "test-watch": "./node_modules/.bin/_mocha -w -b ./test",
-    "commit": "commit-wizard"
+    "commit": "commit-wizard",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/Jarvin-Guan/arg-parser#readme",
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "eslint": "^2.8.0",
     "mocha": "^1.5.0",
     "pre-git": "^3.8.3",

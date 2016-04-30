@@ -29,7 +29,6 @@ describe( 'array test', function () {
             '-a','tt',
             '-a','c2d',
           ] );
-          console.log( result );
           result.a.should.have.length( 4 );
       } );
     } );
