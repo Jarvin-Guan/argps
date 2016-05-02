@@ -1,4 +1,4 @@
-{ 
+{   
   "name": "argps",
   "version": "1.0.3",
   "description": "Parsing arguments to Object automatically",
